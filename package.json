@@ -1,0 +1,30 @@
+{
+  "name": "reno",
+  "version": "1.0.0",
+  "description": "RESTful API using NodeJS Express Oracle",
+  "main": "emp_server.js",
+  "scripts": {
+    "test": "node emp_server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/strmark/reno"
+  },
+  "keywords": [
+    "REST",
+    "Express",
+    "NodeJS",
+    "Oracle"
+  ],
+  "author": "Mark Striekwold",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/strmark/reno/issues"
+  },
+  "homepage": "https://github.com/strmark/reno",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "oracledb": "^3.1.2"
+  }
+}
